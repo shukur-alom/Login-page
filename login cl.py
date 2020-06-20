@@ -21,8 +21,8 @@ class Login:
    def sty(cls,strt):
       return cls(*strt.split('-'))
 
-shukur=Login.sty('shukuralom1234@gmail.com-shukur')
-alam=Login.sty('scoutsnb@gmail.com-alam')
+shukur=Login.sty('x-y') #x emil
+alam=Login.sty('x-y') # x email , y password
 
 User_inp=input('email\n')
 
